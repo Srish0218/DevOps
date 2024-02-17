@@ -1,0 +1,43 @@
+1. `tree /home/thor/test-dir`
+   - This command attempts to display the directory tree structure for `/home/thor/test-dir`, but it encounters an error, possibly because the directory doesn't exist.
+
+2. `tree /home/thor/test_dir`
+   - This command successfully displays the directory tree structure for `/home/thor/test_dir`. It shows three directories (`dir1`, `dir2`, `dir3`) and three files (`test_file1.txt`, `test_file2.txt`, `test_file4.txt`).
+
+3. `touch /home/thor/empty_file.txt`
+   - Creates an empty file named `empty_file.txt` in the home directory.
+
+4. `touch /home/thor/contents_file.txt`
+   - Creates an empty file named `contents_file.txt` in the home directory.
+
+5. `cat > contents_file.txt`
+   - This command starts the `cat` command in input mode, allowing you to enter text into `contents_file.txt`. However, it seems that you pressed `Ctrl + D` or otherwise exited without entering any text.
+
+6. `cat`
+   - This command by itself is used to concatenate and display the content of files. In this case, it seems you entered it without specifying a file, resulting in an empty output.
+
+7. `pwd`
+   - Prints the present working directory (`/home/thor`).
+
+8. `mkdir empty_dir`
+   - Creates a directory named `empty_dir` in the home directory.
+
+9. `mkdir -p /home/thor/asia/india/bangalore`
+   - Creates a nested directory structure: `/home/thor/asia/india/bangalore`.
+
+10. `cp /home/thor/asia/bangalore.txt /home/thor/asia/india/bangalore.txt`
+    - Copies the file `bangalore.txt` from `/home/thor/asia/` to `/home/thor/asia/india/bangalore.txt`.
+
+11. `cp -v /home/thor/asia/bangalore.txt /home/thor/asia/india/bangalore`
+    - Copies the file `bangalore.txt` from `/home/thor/asia/` to `/home/thor/asia/india/bangalore` with a verbose output.
+
+12. `cp -r /home/thor/asia/india/bangalore /home/thor/`
+    - Copies the entire `bangalore` directory and its contents from `/home/thor/asia/india/` to `/home/thor/`.
+
+13. `rm /home/thor/asia/bangalore.txt`
+    - Removes (deletes) the file `bangalore.txt` from `/home/thor/asia/`.
+
+14. `rm -r /home/thor/asia/india/bangalore`
+    - Removes (deletes) the directory `bangalore` and its contents from `/home/thor/asia/india/`.
+
+These commands demonstrate file and directory operations in a Linux/Unix environment. Feel free to ask if you have any specific questions or if you'd like further clarification on any of the commands.
