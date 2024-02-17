@@ -16,8 +16,8 @@ This course serves as a foundation for aspiring DevOps practitioners. It covers 
 ## Course Curriculum
 
 1. [**Basic Linux Commands:**](Basic-Linux-Commands.md) Introduction to fundamental Linux commands.
-2. **Linux Package Managers:** Managing software packages on Linux.
-3. **VI Editor:** Usage of the VI text editor.
+2. [**Linux Package Managers:**](Linux-Package-Managers.md) Managing software packages on Linux.
+3. [**VI Editor:**](VI-Editor.md) Usage of the VI text editor.
 4. **VirtualBox and Vagrant:** Introduction and practical usage.
 5. **Networking Fundamentals:** DNS, switching, routing, IP addresses, and ports.
 6. **YAML Introduction:** Basics of YAML, a common configuration file format.
